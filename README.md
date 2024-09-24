@@ -26,7 +26,7 @@ The title's letters appear letter by letter through Reacr "useeffect"
 
 Here's a walkthrough of implemented required features:
 
-<img src='[https://imgur.com/a/CmBc0o5]' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/gallery/unit1-project-CmBc0o5' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
