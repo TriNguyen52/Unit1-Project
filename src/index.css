@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh; 
+}
+
+.Cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.Card {
+  flex: 1 1 calc(25% - 20px); /* 4 cards per row with some margin */
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px; 
+  box-sizing: border-box; 
+  transition: transform 0.2s; /* Smooth transition for click action */
+}
+
+.Card:hover {
+  transform: scale(1.05); /* Slightly enlarge the card on hover */
+  border-color: #C41E3A; /* Change border color on hover */
+}
+
+.Card button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #AA4A44;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.Card button:hover {
+  background-color: #880808; /* Darker red on hover */
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+.Card button:active {
+  background-color: #800020; /* Even darker red when clicked */
+  transform: scale(0.95); /* Slightly shrink the button when clicked */
+}
